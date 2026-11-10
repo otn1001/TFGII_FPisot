@@ -75,7 +75,7 @@ class MapBloc extends Bloc<MapEvent, MapState> {
       if (!state.isFollowingUser) return;
       if (locationState.lastKnownLocation == null) return;
 
-            // Mueve la cámara al usuario si se está siguiendo.
+      // Mueve la cámara al usuario si se está siguiendo.
       moveCamera(locationState.lastKnownLocation!);
     });
   }

@@ -32,7 +32,7 @@ Los \textit{hitos o milestones} son puntos de referencia que marcan el final de 
 \begin{itemize}
 
     \item \textbf{Kick-off} Completado el 30 de julio de 2024. Puesta en marcha del proyecto. A partir de las reuniones mantenidas con el tutor, se necesita tener todas las herramientas preparadas para empezar a desarrollar tanto la aplicación como su documentación.
-    
+
     \item \textbf{MPV - Mínimo Producto Viable} Completado el 2 de septiembre de 2024. Se define el MVP como una aplicación móvil que sobre un mapa OSM muestre la ubicación de usuario, obtenga unos \acrshort{pdi} básicos y una ruta que las una.
 
     \item \textbf{Checkpoint 1 de documentación} Completado el 2 de septiembre de 2024. Este milestone agrupa las tareas relacionadas con la creación y actualización de la documentación del proyecto hasta la reunión con el tutor el 1 de septiembre de 2024.
@@ -40,13 +40,13 @@ Los \textit{hitos o milestones} son puntos de referencia que marcan el final de 
     El objetivo es tener una documentación suficiente para que el tutor pueda dar feedback acerca de la misma y poder corregir errores.
 
     \item \textbf{Prototipo con tours generados por LLM} Completado el 1 de octubre de 2024. El objetivo es transitar desde una aplicación inicial capaz de mostrar lugares y rutas en un mapa, hacia una aplicación que sea capaz de conseguir que estos mismos marcadores y polilíneas sean generados a través de un LLM. \label{hito:prototipo_llm}
-    
+
     \item \textbf{Prototipo Prompting} Completado el 15 de octubre de 2024. Este prototipo se puede realizar en un cuaderno Jupyter y su objetivo es mostrar la evolución en el prompt que dará como resultado unos \acrshort{pdi} de mayor calidad.
-    
+
     \item \textbf{Desarrollo de aplicación completo} Completado el 12 de noviembre de 2024. Se consideran todas las funcionalidades que debe tener la aplicación a presentar como completadas.
-    
+
     \item \textbf{Finalización \acrshort{tfg}:} Completado el 16 de enero de 2025. Se deja el proyecto en estado de entrega, completamente finalizado.
-    
+
 \end{itemize}
 
 \subsection{Organización en \textit{Sprints}}
@@ -63,17 +63,17 @@ Después de las reuniones con el tutor, se establecen los objetivos del proyecto
     	\item \textbf{Investigación previa sobre LLM.}
     	\item \textbf{Determinación de ODS implicados.}
     \end{enumerate}
-    
-    
+
+
     \imagen{bd-kick-off sprint}{Figura burndown del Sprint Kick-off.}
 
 \subsubsection{Sprint 1 - Investigación LLM y desarrollo básico de aplicación con mapa (29/07/2024 - 05/08/2024)} 
 Con las herramientas y una idea previa establecida, es el momento de empezar a desarrollar.
-    
+
     Objetivos: seguir formándome en LLM y las opciones que pueda implementar en el prototipo de prompt.
     Empezar a desarrollar la aplicación móvil con las características básicas.
     Aprender a documentar sprints, indicar qué elementos tendré que documentar y aquellos que tenga claro ir documentando para hacer un avance significativo que pueda evaluar mi tutor. 35 puntos de historia en 8 tareas:
-    
+
     \begin{enumerate}
     	\item \textbf{Creación y organización proyecto base.}
     	\item \textbf{Bloc permiso GPS.}
@@ -84,12 +84,12 @@ Con las herramientas y una idea previa establecida, es el momento de empezar a d
     	\item \textbf{Probar modelo de ejemplo LangChain.dart.}
     	\item \textbf{Documentación del Kick-off sprint.}
     \end{enumerate}
-        
+
     \imagen{bd-s1}{Figura burndown del Sprint 1.}
-    
+
 \subsubsection{Sprint 2 - Implementación solución GIS (05/08/2024 - 12/08/2024):} 
 A partir del concepto básico, se añaden pequeñas mejoras en los tres aspectos del proyecto.
-    
+
     Objetivos: mejorar el prototipo de prompting del cuaderno Jupyter hasta incorporar un sistema RAG, incluir marcadores al mapa en cuanto al desarrollo y continuar con la documentación. 26 puntos de historia en 6 tareas:
 
 	\begin{enumerate}
@@ -100,11 +100,11 @@ A partir del concepto básico, se añaden pequeñas mejoras en los tres aspectos
 		\item \textbf{Wikivoyage como agente para RAG.}
 		\item \textbf{Ingeniería del Prompting (cont.).}
 	\end{enumerate}
-        
+
     \imagen{bd-s2}{Figura burndown del Sprint 2.}
-    
+
     \textit{Dificultades encontradas}: la documentación me hizo perder mucho tiempo debido a problemas con las librerías, después de mucho tiempo reinicié el proyecto desde la plantilla dada, insertando el texto, lo que solucionó el problema. En cuanto al diseño de la aplicación, el desarrollo fue lento al tener que evaluar diferentes opciones ya que la mayoría de fuentes utilizan mapas de Google, opción que se quería descartar.
- 
+
 
 \subsubsection{Sprint 3 - MPV(12/08/2024 - 22/08/2024):} 
 Este sprint fue más largo que los anteriores para mejorar el resultado final ya que la intención era dejar el proyecto en un estado de revisión lo más completo posible para afrontar la reunión prevista para inicio de septiembre con el tutor del mismo. Al intentar desarrollar la tecnología de enrutado del usuario se comprendió lo que ya se intuía en el sprint anterior y es que basar el trabajo en servicios de Google iba a reportar en un desarrollo más fácil y un resultado más robusto y fiable como se justifica en la sección 5 de la memoria de este \acrshort{tfg}. 42 puntos de historia en 5 tareas:
@@ -116,8 +116,8 @@ Este sprint fue más largo que los anteriores para mejorar el resultado final ya
 		\item \textbf{Adaptación a servicios Google.}
 	\end{enumerate}
 	\imagen{bd-s3}{Figura burndown del Sprint 3.}
-    
-    
+
+
 \subsubsection{Sprint 4 - Servicios MapBox y LLM, preparación reunión inicio curso.(22/08/2024 - 02/09/2024)}
     El objetivo es mostrar la versión más completa de la aplicación, la documentación y ahondar en el uso de nuevas herramientas como Figma, una herramienta de diseño de aplicaciones y LangFlow a la hora de utilizar otro modelo de prototipo. 31 puntos de historia en 5 tareas:
 \begin{enumerate}
@@ -128,7 +128,7 @@ Este sprint fue más largo que los anteriores para mejorar el resultado final ya
 	\item \textbf{LangFlow para Agent RAG.}
 \end{enumerate}
     \imagen{bd-s4}{Figura burndown del Sprint 4.}
-    
+
 \subsubsection{Sprint 5 - Aplicación con origen de datos LLM (Preparación y documentación) (04/09/2024 - 14/09/2024)} 
 Después de la reunión con el tutor de inicio de septiembre y habiendo cumplido los objetivos de los primeros hitos se decide continuar intentando alcanzar el hito \ref{hito:prototipo_llm}. Para ello se prepara y documenta primero en este sprint el desarrollo necesario. 28 puntos de historia en 6 tareas:
 \begin{enumerate}
@@ -154,7 +154,7 @@ Habiendo encontrado una solución óptima al modelo LLM a utilizar se propone re
 	\item \textbf{Reorganización de proyecto: Clase Eco City.}
 \end{enumerate}
 \imagen{bd-s6}{Figura burndown del Sprint 6.}
-	
+
 \subsubsection{S7 - Consolidación y Calidad (02/10/2024 - 22/10/2024)} Habiendo cumplido el hito \ref{hito:prototipo_llm} y teniendo una aplicación con muchas funcionalidades implementadas, durante este sprint se busca consolidar el código y dotarlo de una calidad y mantenimiento con herramientas de soporte como Sonar Cloud o Logger. 39 puntos de historia en 9 tareas:
 \begin{enumerate}
 	\item \textbf{Establecer Requisitos.}
@@ -223,8 +223,8 @@ Se estudia la posibilidad de generar diferentes asistentes dándole al modelo di
 	\item \textbf{Revisión anexo de diseño y manual de usuario.}
 	\item \textbf{Adaptación de Memoria a la longitud permitida.}
 \end{enumerate}
-\imagen{bd-s10}{Figura burndown del Sprint 11.}
-\todo{CAMBIAR EL DIAGRAMA!}
+\imagen{bd-s11}{Figura burndown del Sprint 11.}
+
 
 
 
@@ -267,7 +267,7 @@ Para calcular el coste de los equipos se supone un período de amortización de 
 }
 
 Asociado a estos costes también podremos asociar el \textbf{uso de Internet} necesario para poder desarrollar sin problemas buscando información o descargando paquetes necesarios del repositorio de Flutter. Un servicio básico de este tipo \textbf{puede costar 30-60 euros} dependiendo de la velocidad del mismo o de otros productos asociados al cliente.
-	
+
 \subsubsection{Coste de software}
 El software utilizado para el proyecto es libre. Visual Studio Code como IDE de desarrollo único, libre y gratuito y Android Studio en su versión gratuita para poder instalar emuladores de dispositivos móviles. El paquete SDK de Flutter no supone tampoco ningún gasto por parte del desarrollador.
 Como sistema operativo se sugiere Ubuntu 22.04 LTS ya que tiene soporte a largo plazo, se trata de un entorno estable, confiable y se trata de una versión de código abierto. La herramienta y extensión de Visual Studio Code Copilot aunque útil no es imprescindible pudiendo usar . El resto de software para prototipado como Langflow o LMStudio son también gratuitos.
@@ -318,7 +318,7 @@ Se ha incluido un coste estimado de 750 € por las tareas de \textbf{revisión 
 Una vez analizado los costes devengados de la creación de la aplicación el beneficio de su explotación debe ser mayor al gasto ocasionado por su creación. Además, una vez publicada la aplicación en la \textit{Play Store} el beneficio obtenido por su explotación debe compensar el tiempo requerido por el personal en horas de mantenimiento de los posibles problemas que pueda experimentar como por ejemplo problemas por actualización de los componentes claves como modelos LLM, que puedan quedar obsoletos. El beneficio de la aplicación puede provenir de varias fuentes en función del modelo de explotación que se eligiese:
 \begin{itemize}
 	\item \textbf{Ingresos por descarga:} si la aplicación tiene un precio por descarga, los ingresos corresponderían al dinero obtenido menos una comisión del 15\% cobrada por Google por cada venta \cite{googleplay_commission}. Inicialmente, se propone un precio aproximado de lanzamiento de 5 euros, considerando que se obtendrían aproximadamente 4,40 euros como beneficio por descarga. Este precio se estima razonable para incentivar descargas durante la fase inicial. Tras un periodo de prueba, el precio podría ajustarse en función del número de descargas y del comportamiento de los usuarios. Los gastos derivados del uso de servicios externos, como peticiones a APIs, se compensarían con un equilibrio entre usuarios que realicen menos consultas y aquellos más demandantes, garantizando siempre un beneficio estimado en el modelo económico.
-	
+
 	\item{Publicidad:} empresas o entidades colaboradoras podrían financiar el desarrollo con publicidad siempre que ésta no suponga una perdida de independencia en los resultados de los modelos, fomente el turismo ecológico y no sea invasiva ni perjudique la experiencia de usuario.
 \end{itemize}
 
@@ -388,5 +388,3 @@ Para poder publicar la aplicación en el repositorio de aplicaciones Android hay
 	\item Respetar las restricciones de almacenamiento y uso de datos.
 	\item Desarrollar y publicar una política de privacidad clara para los usuarios.
 \end{enumerate}
-
-Respetando el uso ético de la aplicación y cumpliendo con estos requisitos la viabilidad legal de Eco City Tours estaría cumplida y no supondría un impedimento para su ejecución.
